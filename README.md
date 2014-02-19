@@ -4,7 +4,7 @@ liken
 An Android social app that lets you to find people with mutual interests in any topics, just by asking and answering quesitons! Go to the playstore: https://play.google.com/store/apps/details?id=com.liken&hl=en 
 (NOTE: the AWS service has been terminated hence the web server of this app is no longer operating.)
 
-![solarized palette](https://github.com/luelue/liken/blob/master/Screenshot_2013-10-06-20-15-21.png)
+![solarized palette](https://github.com/luelue/liken/Screenshot_2013-10-06-20-15-21.png)
 The additional libraries & jar files needed for this project which are not included in this repo are as followed:
 Android-SlideExpandableListView-master
 Android-Universal-Image-Loader-master

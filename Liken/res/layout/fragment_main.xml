@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+   
+
+            <android.support.v4.view.ViewPager
+                
+                android:id="@+id/kk_pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:background="#ffffff" 
+                android:layout_gravity="center_horizontal|center_vertical" />
+        
+
+        <ImageView
+            android:id="@+id/iv_ask"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ask_button"
+            android:text="Ask" />
+    </FrameLayout>
+
+</RelativeLayout>

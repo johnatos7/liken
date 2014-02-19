@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_Question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" your question"
+        android:textSize="20sp" />
+
+    <EditText
+        
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:maxLength="200"
+      android:inputType="textCapSentences|textMultiLine"
+        android:background="#ffffff"
+        android:hint="write down your opinion on this"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

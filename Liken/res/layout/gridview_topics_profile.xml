@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   
+    android:background="#ffffff">
+<LinearLayout 
+      android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/llayout"
+  >
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/culture"
+        android:layout_gravity="center" />
+    <TextView 
+        android:id="@+id/tv_topic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Art"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+</LinearLayout>
+</LinearLayout>

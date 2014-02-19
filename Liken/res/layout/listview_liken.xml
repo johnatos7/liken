@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+ >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:background="#dcf9f9"
+    >
+    <ImageView
+        android:id="@+id/iv_person"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/profile" />
+     <com.liken.customviews.TypefaceTextView
+        android:id="@+id/tv_notification"
+        android:layout_width="wrap_content"
+       android:textStyle="bold"
+        android:layout_height="wrap_content"
+      android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="..." />
+
+
+    </LinearLayout>
+        <com.liken.customviews.TypefaceTextView
+            android:id="@+id/tv_Question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:padding="5dp"
+            android:text="..."
+           android:textColor="#01e6e9"
+            
+           />
+
+</LinearLayout>

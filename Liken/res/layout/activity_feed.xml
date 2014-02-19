@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+  
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8" >
+
+            <com.liken.customviews.TypefaceTextView
+                android:id="@+id/tv_question"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="Example  Questions?"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <com.liken.customviews.TypefaceTextView
+                android:id="@+id/tv_questionExtended"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="Example  Questions?"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_numberAnswer"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#01e6e9"
+                android:gravity="center"
+                android:text="10"
+                android:textSize="20dp" />
+
+            <com.liken.customviews.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="answers"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_questions"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/layout_top"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/layout_middle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_questions"
+        android:orientation="horizontal" >
+
+        <com.liken.customviews.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="by "
+            android:textSize="15sp" />
+
+        <com.liken.customviews.TypefaceTextView
+            android:id="@+id/tv_askerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Lue"
+            android:textColor="#01e6e9"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_topic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_middle"
+        android:orientation="horizontal" >
+
+        <com.liken.customviews.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="in "
+            android:textSize="15sp" />
+
+        <com.liken.customviews.TypefaceTextView
+            android:id="@+id/tv_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="movies"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <com.liken.customviews.TypefaceButton
+         android:layout_below="@+id/layout_topic"
+        android:id="@+id/b_answer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_blue_stroke"
+        android:text="..."
+        android:textSize="20sp" />
+
+</RelativeLayout>

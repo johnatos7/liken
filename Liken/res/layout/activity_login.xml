@@ -1,0 +1,84 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@color/theme_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/theme_color"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@drawable/likemind_logo" />
+
+          <com.liken.customviews.TypefaceTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_gravity="center"
+            android:text="LIKEN"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:hint="Email"
+            android:background="#ffffff"
+            android:maxLines="1"
+            android:textSize="15sp" 
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+             android:background="#ffffff"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textSize="15sp" />
+
+        <com.liken.customviews.TypefaceButton
+            android:id="@+id/bLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:text="Login"
+            android:textColor="#ffffff"
+            android:background="@color/button_color"
+            android:textSize="20sp" />
+
+        <com.facebook.widget.LoginButton
+            android:id="@+id/fblogin_button"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/bLoginLogin"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp" />
+        
+        <com.liken.customviews.TypefaceButton
+            android:id="@+id/bSignUp"
+            android:layout_width="fill_parent"
+             android:textColor="#ffffff"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:text="Sign Up"
+            android:background="@color/button_color"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>

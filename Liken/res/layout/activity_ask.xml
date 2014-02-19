@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+         android:background="#ffffff"
+     android:layout_height="fill_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent" >
+
+<FrameLayout
+    android:id="@+id/flayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:ellipsize="end"
+        android:ems="10"
+        android:hint="Ask a question to the mass"
+        android:inputType="textCapSentences"
+        android:lines="6"
+        android:maxLength="100"
+        android:minLines="2"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical" >
+
+        <requestFocus />
+    </EditText>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_alignBottom="@id/editText1"
+        android:layout_marginBottom="5dp"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="bottom|right" />
+
+</FrameLayout>
+    <LinearLayout 
+        android:visibility="gone"
+        android:layout_margin="3dp"
+        android:orientation="vertical"
+       android:id="@+id/ll_linkView"
+       android:layout_width="fill_parent"
+       android:layout_height="300dp"
+       android:layout_below="@+id/flayout"
+        />
+
+    
+
+    <LinearLayout
+        android:id="@+id/ll_widgets"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_linkView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/ib_photo"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.3"
+            android:src="@drawable/addphoto_icon_grey" />
+
+        <ImageView
+            android:id="@+id/ib_link"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.3"
+            android:src="@drawable/link_icon_grey" />
+
+        <ImageView
+            android:id="@+id/ib_topic"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.3"
+            android:src="@drawable/hashtag_icon_grey" />
+
+    </LinearLayout>
+
+  
+
+</RelativeLayout>
+</ScrollView>

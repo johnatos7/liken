@@ -1,7 +1,9 @@
 liken
 =====
 
-An Android social app that lets you to find people with mutual interests in any topics, just by asking and answering quesitons! Go to the playstore: https://play.google.com/store/apps/details?id=com.liken&hl=en 
+Liken is a social mobile app where you can meet likeminded people through the discovery of common topics of discussion. Post messages, images, videos, and questions, then see how others respond to you! Or, respond to what others have posted, and see if you match up!!
+
+Go to the playstore: https://play.google.com/store/apps/details?id=com.liken&hl=en 
 
 (NOTE: the AWS service has been terminated hence the web server of this app is no longer operating.)
 

@@ -1,8 +1,10 @@
 liken
 =====
 
-An Android social app that lets you to find people with mutual interests in any topics, just by asking and answering quesitons!
-![solarized palette](https://github.com/altercation/solarized/raw/master/img/solarized-palette.png)
+An Android social app that lets you to find people with mutual interests in any topics, just by asking and answering quesitons! Go to the playstore: https://play.google.com/store/apps/details?id=com.liken&hl=en 
+(NOTE: the AWS service has been terminated hence the web server of this app is no longer operating.)
+
+![solarized palette](https://lh3.ggpht.com/l2otLVtwJlRapgHJ0TVF8-W1ZVpZ0VHra3B77K9CATdWQtspjLmLUcW9iM-2IWRsw4I=h900-rw)
 The additional libraries & jar files needed for this project which are not included in this repo are as followed:
 Android-SlideExpandableListView-master
 Android-Universal-Image-Loader-master

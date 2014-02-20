@@ -5,7 +5,7 @@ Liken is a social mobile app where you can meet likeminded people through the di
 
 Go to the playstore: https://play.google.com/store/apps/details?id=com.liken&hl=en 
 
-(NOTE: the AWS service has been terminated hence the web server of this app is no longer operating.)
+(NOTE: the AWS service is terminated hence the web server of this app is no longer operating.)
 
 ![screenshots](https://raw2.github.com/luelue/liken/master/Screenshot_2013-10-08-22-26-54.png)
 

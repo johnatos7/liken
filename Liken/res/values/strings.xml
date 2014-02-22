@@ -4,7 +4,7 @@
     <string name="app_name">Liken</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="fbapp_id">410965532332862</string>
+    <string name="fbapp_id">your facebook app id</string>
 
     <string-array name="fragments">
         <item>Trending</item>

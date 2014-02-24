@@ -33,5 +33,5 @@ libGoogleAnalyticsServices.jar
 
 
 
-Don't worry, all the things above are uploaded to my google drive can be downloaded thru this link:
+Don't worry, all the libraries above are uploaded to my google drive can be downloaded thru this link:
 https://drive.google.com/file/d/0BxmXGz6F4r_nYjlqeXV1QXFtM1E/edit?usp=sharing

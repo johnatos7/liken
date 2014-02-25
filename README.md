@@ -3,6 +3,10 @@ liken
 
 Liken is a social mobile app where you can meet likeminded people through the discovery of common topics of discussion. Post messages, images, videos, and questions, then see how others respond to you! Or, respond to what others have posted, and see if you match up!!
 
+The web service is build on Amazon Web Service(AWS) running on EC2 instance, using RDS for data storage, and S3 for media files (pictures mostly) storage. 
+
+Google Analytics service is implemented on the app to do data analysis for users' behaviors.
+
 Go to the playstore: https://play.google.com/store/apps/details?id=com.liken&hl=en 
 
 (NOTE: the AWS service is terminated hence the web server of this app is no longer operating.)
